@@ -33,8 +33,6 @@ class MainActivity : AppCompatActivity() {
         }.attach()
     }
 
-
-
     private fun initViewPager() {
         adapter = ViewPagerAdapter(this)
         adapter.setList(createList())
